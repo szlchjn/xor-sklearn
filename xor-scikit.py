@@ -21,7 +21,7 @@ for i in range(res):
         output[i][j] = model.predict(x)[0]
 
 
-
+#Visualize results
 fig = plt.figure(figsize=(10, 8))
 ax = fig.add_subplot(111)
 cax = plt.imshow(np.array(output), interpolation='nearest', vmin=0, vmax=1)
