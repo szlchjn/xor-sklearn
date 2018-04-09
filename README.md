@@ -23,3 +23,5 @@ Radnom weight initialization can produce values which lead to our NN do not conv
 ### Anomalies
 Increasing the number of hidden layers and neurons in each layer, can push the network to converge faster but also causes NN to produce peculiar results.
 ![anomaly1](https://user-images.githubusercontent.com/30974121/38496663-a13e79be-3bfe-11e8-84b2-a0e1dea993ba.png)
+## Acknowledgement
+Thanks to [Dan Shiffman's youtube series on neural networks](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) for providing an insporation to try this exaple on my own.
