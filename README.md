@@ -18,7 +18,7 @@ First type of results are two different cases where the regressor finds correlat
 ![white](https://user-images.githubusercontent.com/30974121/38496671-a491f6fe-3bfe-11e8-9e4a-a73a1970c407.png)
 ![black](https://user-images.githubusercontent.com/30974121/38496667-a2414ada-3bfe-11e8-9656-36cea6ab4cfb.png)
 ### Not converging 
-Radnom weight initialization can produce values which lead to our NN do not converging within max iteration threshold, thus producing this "stuck" result.
+Radnom weight initialization can produce values which lead to NN not converging within max iteration threshold, thus producing this "stuck" result.
 ![stuck](https://user-images.githubusercontent.com/30974121/38496669-a38f0c10-3bfe-11e8-9e60-e690a85d84fb.png)
 ### Anomalies
 Increasing the number of hidden layers and neurons in each layer, can push the network to converge faster but also causes NN to produce peculiar results.
